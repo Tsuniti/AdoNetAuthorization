@@ -1,0 +1,16 @@
+﻿<Window x:Class="AuthorizationFormWPF.MyMessageBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AuthorizationFormWPF"
+        mc:Ignorable="d"
+        Title="MyMessageBox"
+        SizeToContent="WidthAndHeight"
+        >
+    <Grid>
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <TextBlock x:Name="TextBlock" MaxHeight="500"/>
+        </ScrollViewer>
+    </Grid>
+</Window>
